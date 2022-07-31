@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Typing-speed-game</title>
+		<link rel="stylesheet" href="css/TG2.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<!-- font awesome -->
+		<link rel="stylesheet" href="css/all.min.css" />
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="game">
+			<div class="back"></div>
+			<div class="title">Typing Speed Test Game</div>
+			<div class="container">
+				<div class="message">
+					<i class="fa-solid fa-flag-checkered"></i>
+					<p>Please be prepared. Good luck!</p>
+					<button>Start</button>
+				</div>
+				<input
+					type="text"
+					class="writeArea"
+					name="writeArea"
+					autocomplete="off"
+				/>
+				<div class="whiteBoard">
+					<div class="mainText"></div>
+				</div>
+				<div class="restart">
+					<i class="fa-solid fa-rotate-left"></i>
+					<span>RESTART</span>
+				</div>
+				<div class="results">
+					<i class="fa-solid fa-thumbs-up"></i>
+					<h2>Good job</h2>
+					<div class="speed">
+						<i class="fa-solid fa-stopwatch"></i> your Speed :
+						<span></span> WPM
+					</div>
+					<div class="accuracy">
+						<i class="fa-solid fa-crosshairs"></i> your Accuracy :
+						<span></span> %
+					</div>
+					<button class="again">Take test again</button>
+				</div>
+			</div>
+			<div class="footer">
+				Made with <i class="fa-solid fa-heart"></i> By
+				<span class="name">MOHAMED TAREK</span>
+			</div>
+		</div>
+
+		<script src="js/TG2.js"></script>
+	</body>
+</html>
